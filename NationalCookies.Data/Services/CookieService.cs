@@ -25,7 +25,6 @@ namespace NationalCookies.Data.Services
             if (!string.IsNullOrEmpty(cachedCookies)){
             
                 cookies = JsonConvert.DeserializeObject<List<Cookie>>(cachedCookies);
-            
             }
             else
             {
