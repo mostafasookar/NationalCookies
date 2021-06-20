@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using NationalCookies.Data.Interfaces;
 
 namespace NationalCookies.Controllers
@@ -15,6 +15,13 @@ namespace NationalCookies.Controllers
         public IActionResult Index()
         {
             return View(_cookieService.GetAllCookies());
+        }
+
+        public IActionResult ClearCache()
+        {
+            _cookieService.ClearCache();
+
+            return RedirectToAction("Index", "Home");
         }
     }
 }
