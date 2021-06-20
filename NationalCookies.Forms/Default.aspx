@@ -4,7 +4,7 @@
 
 <img src="https://intcookie.azureedge.net/cdn/cookie.jpg" alt="cookie" />
 
-<span style="font-size:xx-large">We sell cookies in the Netherlands!</span>
+<span style="font-size:xx-large">We sell cookies in the UAE!</span>
 
 
 <div class="row">
